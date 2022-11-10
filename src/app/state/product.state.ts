@@ -7,6 +7,7 @@ NEW_PRODUCTS="[Product] New products",
 DELETE_PRODUCTS="[Product] Delete products",
 UPDATE_PRODUCTS="[Product] Update products",
 SELECTED_PRODUCTS="[Product] Selected products",
+SAVE_PRODUCTS="[Product] Save products",
 }
 
 export interface ActionEvent{

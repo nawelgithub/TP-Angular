@@ -1,4 +1,9 @@
 
-<app-products-nav-bar (productEventEmitter)="onActionEventNavbar($event)"></app-products-nav-bar>
+<!--<app-products-nav-bar (productEventEmitter)="onActionEventNavbar($event)"></app-products-nav-bar>-->
 
-<app-products-list [productsInput$]="products$"  (productEventEmitter)="onActionEventList($event)"></app-products-list>
+<app-products-nav-bar></app-products-nav-bar>
+
+<!--<app-products-list [productsInput$]="products$"  (productEventEmitter)="onActionEventList($event)">
+</app-products-list>-->
+
+<app-products-list [productsInput$]="products$"></app-products-list>

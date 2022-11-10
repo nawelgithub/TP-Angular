@@ -24,10 +24,15 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <app-produts-item [product]="product" (eventEmetter)="onActionEventitem($event)"
+                   <!-- <app-produts-item [product]="product" (eventEmetter)="onActionEventitem($event)"
                         *ngFor="let product of result.data" style="display: contents;">
 
-                    </app-produts-item>
+                    </app-produts-item>-->
+
+                    <app-produts-item [product]="product" 
+                    *ngFor="let product of result.data" style="display: contents;">
+
+                </app-produts-item>
 
                 </tbody>
             </table>
